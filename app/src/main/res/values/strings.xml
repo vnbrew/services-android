@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">services-android</string>
+    <string name="channel_id">Foreground channel id</string>
+    <string name="channel_name">Foreground channel name</string>
+    <string name="channel_description">This is a Foreground channel</string>
+    <string name="message_foreground_service">Foreground Service is running</string>
+    <string name="start_foreground_service">Start Foreground service</string>
+    <string name="stop_foreground_service">Stop Foreground service</string>
+    <string name="player_view">player view</string>
+    <string name="detail">Detail</string>
+</resources>
