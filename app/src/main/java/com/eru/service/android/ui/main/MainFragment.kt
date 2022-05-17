@@ -1,5 +1,6 @@
 package com.eru.service.android.ui.main
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -7,6 +8,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.eru.service.android.databinding.FragmentMainBinding
 import com.eru.service.android.services.IServiceManager
+import com.eru.service.android.ui.example2.Example2Activity
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 import timber.log.Timber
@@ -51,6 +53,11 @@ class MainFragment : Fragment() {
         binding.tvStopForegroundService.setOnClickListener {
             Timber.i("$LOG_FILTER stop foreground service")
             serviceManager.stopForegroundService(requireContext())
+        }
+
+        binding.tvExample2.setOnClickListener {
+            val example2Intent = Intent(requireContext(), Example2Activity::class.java)
+            startActivity(example2Intent)
         }
     }
 }

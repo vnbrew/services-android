@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.example2.Example2Activity">
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shadowColor="@color/black"
+        android:text="@string/test_ui_responsiveness" />
+
+    <Button
+        android:id="@+id/bStartBgService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start_background_service" />
+
+    <Button
+        android:id="@+id/bStopBgService"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:text="@string/stop_background_service" />
+
+    <Button
+        android:id="@+id/bStartIntentService"
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:text="@string/start_intent_service" />
+
+    <TextView
+        android:id="@+id/tvIntentServiceResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/intent_service_result"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/bStartFgService"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:text="@string/start_foreground_service" />
+
+    <Button
+        android:id="@+id/bStopFgService"
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:text="@string/stop_foreground_service" />
+
+</LinearLayout>

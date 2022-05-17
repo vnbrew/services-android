@@ -8,4 +8,10 @@
     <string name="stop_foreground_service">Stop Foreground service</string>
     <string name="player_view">player view</string>
     <string name="detail">Detail</string>
+    <string name="example_2">Example 2</string>
+    <string name="test_ui_responsiveness">Test UI Responsiveness</string>
+    <string name="start_background_service">Start Background Service</string>
+    <string name="stop_background_service">Stop Background Service</string>
+    <string name="start_intent_service">Start Intent Service</string>
+    <string name="intent_service_result">Intent Service Result</string>
 </resources>

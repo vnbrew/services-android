@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Services.Android">
         <activity
+            android:name=".ui.example2.Example2Activity"
+            android:exported="false" />
+        <activity
             android:name=".ui.detail.DetailActivity"
             android:exported="false" />
         <activity
@@ -32,6 +35,18 @@
 
         <service
             android:name=".services.ForegroundService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".services.MyBackgroundService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".services.MyForegroundService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".services.MyIntentService"
             android:enabled="true"
             android:exported="true" />
     </application>
