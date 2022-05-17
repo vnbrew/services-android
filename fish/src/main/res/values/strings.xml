@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="message_foreground_service">Foreground Service is running</string>
+</resources>

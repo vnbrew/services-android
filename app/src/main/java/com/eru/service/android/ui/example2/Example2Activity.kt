@@ -9,9 +9,9 @@ import android.os.Handler
 import android.os.ResultReceiver
 import androidx.appcompat.app.AppCompatActivity
 import com.eru.service.android.databinding.ActivityExample2Binding
-import com.eru.service.android.services.MyBackgroundService
-import com.eru.service.android.services.MyForegroundService
-import com.eru.service.android.services.MyIntentService
+import com.eru.service.android.fish.services.MyBackgroundService
+import com.eru.service.android.fish.services.MyForegroundService
+import com.eru.service.android.fish.services.MyIntentService
 
 class Example2Activity : AppCompatActivity() {
 

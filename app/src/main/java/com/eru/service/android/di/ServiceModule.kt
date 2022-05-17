@@ -1,9 +1,9 @@
 package com.eru.service.android.di
 
-import com.eru.service.android.services.INotificationManager
-import com.eru.service.android.services.IServiceManager
-import com.eru.service.android.services.NotificationManager
-import com.eru.service.android.services.ServiceManager
+import com.eru.service.android.fish.notification.INotificationManager
+import com.eru.service.android.fish.services.IServiceManager
+import com.eru.service.android.notification.NotificationManager
+import com.eru.service.android.fish.services.ServiceManager
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn

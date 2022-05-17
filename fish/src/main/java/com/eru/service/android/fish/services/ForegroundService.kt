@@ -1,10 +1,11 @@
-package com.eru.service.android.services
+package com.eru.service.android.fish.services
 
 import android.app.Service
 import android.content.Context
 import android.content.Intent
 import android.os.IBinder
-import com.eru.service.android.R
+import com.eru.service.android.fish.R
+import com.eru.service.android.fish.notification.INotificationManager
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 import timber.log.Timber
@@ -44,7 +45,6 @@ class ForegroundService : Service() {
     }
 
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
-
         super.onStartCommand(intent, flags, startId)
         val action = intent?.getStringExtra(ACTION)
         Timber.i("$LOG_FILTER onStartCommand action: $action")

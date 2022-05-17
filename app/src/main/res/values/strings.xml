@@ -3,7 +3,6 @@
     <string name="channel_id">Foreground channel id</string>
     <string name="channel_name">Foreground channel name</string>
     <string name="channel_description">This is a Foreground channel</string>
-    <string name="message_foreground_service">Foreground Service is running</string>
     <string name="start_foreground_service">Start Foreground service</string>
     <string name="stop_foreground_service">Stop Foreground service</string>
     <string name="player_view">player view</string>
@@ -14,4 +13,5 @@
     <string name="stop_background_service">Stop Background Service</string>
     <string name="start_intent_service">Start Intent Service</string>
     <string name="intent_service_result">Intent Service Result</string>
+    <string name="show_gps">Show GPS</string>
 </resources>

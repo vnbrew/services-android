@@ -1,4 +1,4 @@
-package com.eru.service.android.services
+package com.eru.service.android.notification
 
 import android.app.Notification
 import android.app.PendingIntent
@@ -10,15 +10,11 @@ import androidx.core.app.NotificationChannelCompat
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
 import com.eru.service.android.R
-import com.eru.service.android.broadcast.AppBroadcastReceiver
+import com.eru.service.android.fish.broadcast.AppBroadcastReceiver
+import com.eru.service.android.fish.notification.INotificationManager
 import com.eru.service.android.ui.main.MainActivity
 import javax.inject.Inject
 import timber.log.Timber
-
-interface INotificationManager {
-    fun createChannel(context: Context)
-    fun getNotification(context: Context, message: String): Notification
-}
 
 class NotificationManager @Inject constructor(
 ) : INotificationManager {

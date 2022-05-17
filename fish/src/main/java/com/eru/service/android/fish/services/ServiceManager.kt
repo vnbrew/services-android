@@ -1,4 +1,4 @@
-package com.eru.service.android.services
+package com.eru.service.android.fish.services
 
 import android.content.Context
 import androidx.core.content.ContextCompat

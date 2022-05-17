@@ -1,4 +1,4 @@
-package com.eru.service.android.services
+package com.eru.service.android.fish.services
 
 import android.app.NotificationChannel
 import android.app.NotificationManager
@@ -8,7 +8,7 @@ import android.content.Intent
 import android.os.Build
 import android.os.IBinder
 import androidx.core.app.NotificationCompat
-import com.eru.service.android.R
+import com.eru.service.android.fish.R
 import timber.log.Timber
 
 class MyForegroundService : Service() {

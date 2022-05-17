@@ -1,9 +1,9 @@
-package com.eru.service.android.broadcast
+package com.eru.service.android.fish.broadcast
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-import com.eru.service.android.services.IServiceManager
+import com.eru.service.android.fish.services.IServiceManager
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 
